@@ -423,7 +423,7 @@ Notable teams shipping production-level code on Stellar. For a broader directory
 |------|---------|--------|-----------|-----------------|
 | **Lightsail Network** | [lightsail.network](https://lightsail.network) | [lightsail-network](https://github.com/lightsail-network) | [@overcat_me](https://x.com/overcat_me) | Quasar RPC, Java/Python SDKs, Ledger app, validators |
 | **PaltaLabs** | [paltalabs.io](https://paltalabs.io) | [paltalabs](https://github.com/paltalabs) | [@PaltaLabs](https://x.com/PaltaLabs) | Soroswap, DeFindex |
-| **The Aha Company** | [theaha.co](https://theaha.co) | [theahaco](https://github.com/theahaco) | [@theahaco](https://x.com/theahaco) | Scaffold Stellar, Stellar Registry, Soroban CLI contributions |
+| **The Aha Company** | [theaha.co](https://theaha.co) | [theahaco](https://github.com/theahaco) | [@theahaco](https://x.com/theahaco) | Stellar Scaffold, Stellar Registry, Soroban CLI contributions |
 | **OpenZeppelin** | [openzeppelin.com](https://www.openzeppelin.com/networks/stellar) | [OpenZeppelin](https://github.com/OpenZeppelin/stellar-contracts) | [@OpenZeppelin](https://x.com/OpenZeppelin) | Contracts library, Relayer, Monitor, Security Detectors SDK |
 | **Cheesecake Labs** | [cheesecakelabs.com](https://cheesecakelabs.com) | [CheesecakeLabs](https://github.com/CheesecakeLabs) | [@CheesecakeLabs](https://x.com/CheesecakeLabs) | Stellar Plus library |
 | **Script3 / Blend Capital** | [script3.io](https://script3.io) | [script3](https://github.com/script3), [blend-capital](https://github.com/blend-capital) | [@script3official](https://x.com/script3official) | Blend Protocol |
