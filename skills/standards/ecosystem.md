@@ -259,7 +259,7 @@ Official command-line interface for Stellar.
 
 #### Stellar Registry
 On-chain registry of named, versioned Soroban contracts and wasms, with a `stellar registry` CLI plugin and Rust import macros.
-- **Website**: https://stellar.rgstry.xyz
+- **Website**: https://rgstry.xyz
 - **GitHub**: https://github.com/stellar-registry
 - **CLI**: `cargo install --locked stellar-registry-cli` (adds `stellar registry`)
 - **Crate**: `stellar-registry` (`import_contract!`, `import_contract_client!`, `import_asset!`)
