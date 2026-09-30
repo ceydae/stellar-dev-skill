@@ -378,4 +378,12 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
     copyValue:
       "https://raw.githubusercontent.com/pollar-xyz/pollar/main/skills/pollar-wallet-auth/SKILL.md",
   },
+  {
+    title: "Scopuly Wallet",
+    description:
+      "Connect Stellar dApps to Scopuly Mobile and its paired browser extension using the Provider API or Stellar Wallets Kit. Covers transaction signing, SEP-53 messages, Soroban authorization, account and network changes, and error handling.",
+    pathLabel: "Scopuly/scopuly-skills",
+    copyValue:
+      "https://raw.githubusercontent.com/Scopuly/scopuly-skills/main/skills/scopuly-wallet/SKILL.md",
+  },
 ] as const;
