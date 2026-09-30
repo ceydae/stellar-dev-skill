@@ -167,6 +167,14 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
     copyValue: "https://raw.githubusercontent.com/soroswap/sdk/main/soroswap-sdk-skill.md",
   },
   {
+    title: "SODAX",
+    description:
+      "Build cross-network trading, lending, and asset transfers between Stellar and 20+ other networks with the @sodax/sdk TypeScript package. Covers intent quotes and status polling, Stellar trustline handling on source and destination, sponsored activation for new 0-XLM accounts, dapp-kit React hooks, and the Result error model.",
+    pathLabel: "icon-project/sodax-sdks",
+    copyValue:
+      "https://raw.githubusercontent.com/icon-project/sodax-sdks/main/docs/skill.md",
+  },
+  {
     title: "Trustless Work Escrow",
     description:
       "Build escrow and milestone-based payment workflows on Stellar with the Trustless Work platform. Covers single-release and multi-release escrows, trustline configuration, dispute handling, and three integration paths: REST API, React SDK hooks, and pre-built Blocks UI components.",
