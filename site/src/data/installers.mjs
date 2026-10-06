@@ -45,10 +45,10 @@ export const INSTALLERS = [
   {
     name: "OpenClaw",
     description:
-      "Install skills one at a time through OpenClaw's skills.sh source (the slug is the skill directory name):",
+      "Clone the repo and copy every skill into OpenClaw's shared skills directory:",
     commands: [
-      "openclaw skills install skills-sh:stellar/stellar-dev-skill/smart-contracts",
-      "openclaw skills install skills-sh:stellar/stellar-dev-skill/dapp",
+      "git clone https://github.com/stellar/stellar-dev-skill",
+      "mkdir -p ~/.openclaw/skills && cp -R stellar-dev-skill/skills/* ~/.openclaw/skills/",
     ],
   },
   {

@@ -60,14 +60,12 @@ npx skills add https://github.com/stellar/stellar-dev-skill
 
 ### [OpenClaw](https://docs.openclaw.ai/tools/skills)
 
-OpenClaw installs one skill at a time through its skills.sh source. Use the skill directory name as the slug:
+Copy all skills into OpenClaw's shared skills directory, which every local agent can see:
 
 ```bash
-openclaw skills install skills-sh:stellar/stellar-dev-skill/smart-contracts
-openclaw skills install skills-sh:stellar/stellar-dev-skill/dapp
+git clone https://github.com/stellar/stellar-dev-skill
+mkdir -p ~/.openclaw/skills && cp -R stellar-dev-skill/skills/* ~/.openclaw/skills/
 ```
-
-Repeat for `data`, `assets`, `standards`, `agentic-payments`, `cross-chain`, and `zk-proofs`. To install everything at once, clone the repo and copy `skills/` into `~/.openclaw/skills/` (see below).
 
 ### Clone / Copy
 
