@@ -43,6 +43,15 @@ export const INSTALLERS = [
     commands: ["npx skills add https://github.com/stellar/stellar-dev-skill"],
   },
   {
+    name: "OpenClaw",
+    description:
+      "Install skills one at a time through OpenClaw's skills.sh source (the slug is the skill directory name):",
+    commands: [
+      "openclaw skills install skills-sh:stellar/stellar-dev-skill/smart-contracts",
+      "openclaw skills install skills-sh:stellar/stellar-dev-skill/dapp",
+    ],
+  },
+  {
     name: "Clone repo",
     description:
       "Clone the repo and copy the skills directory to your agent's skills location:",
