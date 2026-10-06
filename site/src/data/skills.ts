@@ -379,6 +379,14 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
       "https://raw.githubusercontent.com/pollar-xyz/pollar/main/skills/pollar-wallet-auth/SKILL.md",
   },
   {
+    title: "Stellar Registry",
+    description:
+      "Publish, deploy, and reuse named Soroban contracts through the Stellar Registry. Covers the `stellar registry` CLI (publish, deploy, create-alias, upgrade), the open `unverified/` channel for hackathon projects, and the `import_contract!`, `import_contract_client!`, and `import_asset!` macros for type-safe cross-contract calls to registry contracts, XLM, and other Stellar assets.",
+    pathLabel: "stellar-registry/cli",
+    copyValue:
+      "https://raw.githubusercontent.com/stellar-registry/cli/main/skills/stellar-registry/SKILL.md",
+  },
+  {
     title: "Scopuly Wallet",
     description:
       "Connect Stellar dApps to Scopuly Mobile and its paired browser extension using the Provider API or Stellar Wallets Kit. Covers transaction signing, SEP-53 messages, Soroban authorization, account and network changes, and error handling.",
