@@ -170,9 +170,8 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
     title: "SODAX",
     description:
       "Build cross-network trading, lending, and asset transfers between Stellar and 20+ other networks with the @sodax/sdk TypeScript package. Covers intent quotes and status polling, Stellar trustline handling on source and destination, sponsored activation for new 0-XLM accounts, dapp-kit React hooks, and the Result error model.",
-    pathLabel: "icon-project/sodax-sdks",
-    copyValue:
-      "https://raw.githubusercontent.com/icon-project/sodax-sdks/main/docs/skill.md",
+    pathLabel: "sodax.com/skill.md",
+    copyValue: "https://www.sodax.com/skill.md",
   },
   {
     title: "Trustless Work Escrow",
