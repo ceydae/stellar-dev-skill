@@ -182,20 +182,32 @@ export function BluxSendButton({ xdr }: { xdr: string }) {
 ## Next.js App Router Setup
 
 ### Provider Component
+```tsx
+// app/providers.tsx
+"use client";
 
-If you use Blux, install `@bluxcc/react` and wrap the app once:
+import { ReactNode } from "react";
+
+// Add any context providers here
+export function Providers({ children }: { children: ReactNode }) {
+  return <>{children}</>;
+}
+```
+
+If you use Blux, install `@bluxcc/react` and use this provider instead:
 
 ```tsx
 // app/providers.tsx
 "use client";
 
 import type { ReactNode } from "react";
-import { BluxProvider } from "@bluxcc/react";
+import { BluxProvider, networks } from "@bluxcc/react";
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <BluxProvider config={{
-      appId: "your-app-id", // take this from dashboard.blux.cc
+      appId: "your-app-id", // take this from https://dashboard.blux.cc
+      networks: [networks.testnet],
     }}>
       {children}
     </BluxProvider>
