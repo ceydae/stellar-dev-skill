@@ -386,11 +386,6 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
       "https://raw.githubusercontent.com/pollar-xyz/pollar/main/skills/pollar-wallet-auth/SKILL.md",
   },
   {
-    title: "Blux",
-    description:
-      "Bring Web2 users to Stellar with passkey, OAuth, email, or wallet login. Customize the UI, then use wagmi-style React hooks and JavaScript functions to read balances, call Soroban contracts, and send transactions.",
-    pathLabel: "docs.blux.cc/SKILLS.md",
-    copyValue: "https://docs.blux.cc/SKILLS.md",
     title: "Stellar Registry",
     description:
       "Publish, deploy, and reuse named Soroban contracts through the Stellar Registry. Covers the `stellar registry` CLI (publish, deploy, create-alias, upgrade), the open `unverified/` channel for hackathon projects, and the `import_contract!`, `import_contract_client!`, and `import_asset!` macros for type-safe cross-contract calls to registry contracts, XLM, and other Stellar assets.",
@@ -405,5 +400,12 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
     pathLabel: "Scopuly/scopuly-skills",
     copyValue:
       "https://raw.githubusercontent.com/Scopuly/scopuly-skills/main/skills/scopuly-wallet/SKILL.md",
-  }
+  },
+  {
+    title: "Blux",
+    description:
+      "Bring Web2 users to Stellar with passkey, OAuth, email, or wallet login. Customize the UI, then use wagmi-style React hooks and JavaScript functions to read balances, call Soroban contracts, and send transactions.",
+    pathLabel: "docs.blux.cc/SKILLS.md",
+    copyValue: "https://docs.blux.cc/SKILLS.md",
+  },
 ] as const;
