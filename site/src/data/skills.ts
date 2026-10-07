@@ -167,6 +167,13 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
     copyValue: "https://raw.githubusercontent.com/soroswap/sdk/main/soroswap-sdk-skill.md",
   },
   {
+    title: "SODAX",
+    description:
+      "Build cross-network trading, lending, and asset transfers between Stellar and 20+ other networks with the @sodax/sdk TypeScript package. Covers intent quotes and status polling, Stellar trustline handling on source and destination, sponsored activation for new 0-XLM accounts, dapp-kit React hooks, and the Result error model.",
+    pathLabel: "sodax.com/skill.md",
+    copyValue: "https://www.sodax.com/skill.md",
+  },
+  {
     title: "Trustless Work Escrow",
     description:
       "Build escrow and milestone-based payment workflows on Stellar with the Trustless Work platform. Covers single-release and multi-release escrows, trustline configuration, dispute handling, and three integration paths: REST API, React SDK hooks, and pre-built Blocks UI components.",
@@ -384,5 +391,19 @@ export const ECOSYSTEM_CARDS: readonly EcosystemCardSource[] = [
       "Bring Web2 users to Stellar with passkey, OAuth, email, or wallet login. Customize the UI, then use wagmi-style React hooks and JavaScript functions to read balances, call Soroban contracts, and send transactions.",
     pathLabel: "docs.blux.cc/SKILLS.md",
     copyValue: "https://docs.blux.cc/SKILLS.md",
+    title: "Stellar Registry",
+    description:
+      "Publish, deploy, and reuse named Soroban contracts through the Stellar Registry. Covers the `stellar registry` CLI (publish, deploy, create-alias, upgrade), the open `unverified/` channel for hackathon projects, and the `import_contract!`, `import_contract_client!`, and `import_asset!` macros for type-safe cross-contract calls to registry contracts, XLM, and other Stellar assets.",
+    pathLabel: "stellar-registry/cli",
+    copyValue:
+      "https://raw.githubusercontent.com/stellar-registry/cli/main/skills/stellar-registry/SKILL.md",
   },
+  {
+    title: "Scopuly Wallet",
+    description:
+      "Connect Stellar dApps to Scopuly Mobile and its paired browser extension using the Provider API or Stellar Wallets Kit. Covers transaction signing, SEP-53 messages, Soroban authorization, account and network changes, and error handling.",
+    pathLabel: "Scopuly/scopuly-skills",
+    copyValue:
+      "https://raw.githubusercontent.com/Scopuly/scopuly-skills/main/skills/scopuly-wallet/SKILL.md",
+  }
 ] as const;
